@@ -23,7 +23,8 @@ async def homepage(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 @app.post("/feedback")
-async def participantFeedback(request: Request, name: str = Form(...),
+async def participantFeedback(request: Request, 
+                                name: str = Form(...),
                                 email: str = Form(...),
                                 subject: str = Form(...),
                                 message: str = Form(...),
