@@ -6,4 +6,4 @@ I worked on:
 	Reorganising the files to proper working standard
 	Rendering the page using the root (/) route in my API.
 	Connecting the form table to the database where I got the inputs stored
-	I linked the form to a postgress databse on supabase
+	I linked the form to a local sqlite databse because postgress on supabase refused to respond
